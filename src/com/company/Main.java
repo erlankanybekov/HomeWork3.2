@@ -22,12 +22,13 @@ public class Main {
                     break;
                 case "Meerim":
                     System.out.println("Доброй ночи "+ names[3]);
-
-                default:
-                    System.out.println("Здравствуйте " +  names[0]+ ", " + names[1] +", " + names[2]+", "+names[3]);
-
+                    break;
+            }
+        for (int i = 0; i < names.length ; i++) {
+            System.out.println("Здравствуйте "+ names[i]);
 
         }
 
-    }
-}
+        }
+
+   
