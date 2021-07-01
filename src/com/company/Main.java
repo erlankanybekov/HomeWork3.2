@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
@@ -7,9 +6,7 @@ public class Main {
         names [0] = "Erlan";
         names [1] = "Beka";
         names [2] = "Mirlan";
-        Scanner newnames = new Scanner(System.in);
-        System.out.println("добавьте 4-ый элемент:" );
-        names[3] = newnames.nextLine();
+        names [3] = "Meerim";
 
         for (String newname:names)
             switch (newname){
@@ -26,11 +23,10 @@ public class Main {
                     System.out.println("Доброй ночи "+ names[3]);
                     break;
             }
-        for (int i = 0; i < names.length ; i++) {
+            for (int i = 0; i < names.length ; i++) {
             System.out.println("Здравствуйте "+ names[i]);
 
         }
 
     }
 
-}
